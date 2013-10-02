@@ -30,6 +30,7 @@ include_recipe "git"
   zlib
   zlib-devel
   openssl-devel
+  cmake
 }.each do |pkg|
 
   package pkg
